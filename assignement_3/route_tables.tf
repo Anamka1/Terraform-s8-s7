@@ -35,10 +35,10 @@ resource "aws_route_table" "private" {
 }
 
 resource "aws_route" "nat" {
-  count                   = var.nat_gateway ? length(var.private_subnet_cidrs) : 0
-  route_table_id          = aws_route_table.private.id
+  count                  = var.nat_gateway ? length(var.private_subnet_cidrs) : 0
+  route_table_id         = aws_route_table.private.id
   destination_cidr_block = "0.0.0.0/0"
-  nat_gateway_id          = aws_nat_gateway.nat[count.index].id
+  nat_gateway_id         = aws_nat_gateway.nat[count.index].id
 }
 
 resource "aws_route_table_association" "private" {
