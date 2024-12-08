@@ -55,6 +55,8 @@ Solution: By carefully reviewing the error messages and researching them, I was 
 Conclusion:
 This assignment allowed me to practice setting up and configuring a basic AWS VPC with subnets, routing, and NAT functionality. I faced several challenges during the process, primarily related to managing resources and understanding Terraform’s syntax and meta-arguments, but by carefully troubleshooting and iterating on my configuration, I was able to successfully complete the task. This experience has deepened my understanding of VPCs and Terraform, and it has equipped me with the skills to work with cloud networking configurations.
 
+graphic representation: file:///C:/Users/Anatole/Downloads/DALL%C2%B7E%202024-12-08%2012.42.39%20-%20A%20detailed%20diagram%20showing%20an%20AWS%20VPC%20architecture%20with%20the%20following%20components_%20A%20VPC%20with%20CIDR%20block%2010.0.0.0_16.%20Three%20public%20subnets%20with%20CIDR%20bl.webp
+
 It is good to do assignemnts than seating in classes
 
 
