@@ -25,8 +25,8 @@ resource "aws_nat_gateway" "nat" {
 }
 
 resource "aws_eip" "nat" {
-  count = var.nat_gateway ? length(var.public_subnet_cidrs) : 0
-  vpc   = true
+  count  = var.nat_gateway ? length(var.public_subnet_cidrs) : 0
+  domain = "vpc"
   tags = {
     Name           = "s8anatole-nat-eip-${count.index + 1}"
     owner          = "Anatole Majyambere"
