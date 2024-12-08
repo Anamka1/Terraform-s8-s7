@@ -1,6 +1,10 @@
 create a VPC with 3 public subnets,  and 3 private subnets, nat
 
 **Summary of VPC Assignment:**
+<<<<<<< HEAD
+=======
+Objective:
+>>>>>>> 649029d483e8f2d93f7c1ce1141d5bb5a6d79a9b
 The objective of this assignment was to design and implement an Amazon Web Services (AWS) Virtual Private Cloud (VPC) with public and private subnets, incorporating best practices such as subnet segmentation, proper CIDR block allocation, and the creation of necessary networking components. The goal was to enable secure and efficient communication between resources in the cloud, as well as to control access through network address translation (NAT) gateways and internet gateways.
 
 Steps Taken:
@@ -55,8 +59,11 @@ Solution: By carefully reviewing the error messages and researching them, I was 
 Conclusion:
 This assignment allowed me to practice setting up and configuring a basic AWS VPC with subnets, routing, and NAT functionality. I faced several challenges during the process, primarily related to managing resources and understanding Terraform’s syntax and meta-arguments, but by carefully troubleshooting and iterating on my configuration, I was able to successfully complete the task. This experience has deepened my understanding of VPCs and Terraform, and it has equipped me with the skills to work with cloud networking configurations.
 
+<<<<<<< HEAD
 graphic representation: file:///C:/Users/Anatole/Downloads/DALL%C2%B7E%202024-12-08%2012.42.39%20-%20A%20detailed%20diagram%20showing%20an%20AWS%20VPC%20architecture%20with%20the%20following%20components_%20A%20VPC%20with%20CIDR%20block%2010.0.0.0_16.%20Three%20public%20subnets%20with%20CIDR%20bl.webp
 
 It is good to do assignemnts than seating in classes
 
+=======
+>>>>>>> 649029d483e8f2d93f7c1ce1141d5bb5a6d79a9b
 
